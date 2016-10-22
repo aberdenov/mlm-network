@@ -1,0 +1,1 @@
+<div class="au2"><input type="button" name="save" value="Сохранить" onclick="setAction(3);" class="in3">&nbsp;&nbsp;&nbsp;<input type="button" name="exit" value="Выход" onclick="setAction(2);" class="in3"></div>

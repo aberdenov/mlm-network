@@ -1,0 +1,90 @@
+div.orgChart { 
+    margin                : 10px;
+    padding               : 20px;
+}
+
+div.orgChart h2 {
+    margin                : 0px;
+    font-size             : 1em;
+    border-bottom         : none;
+}
+
+div.orgChart ul {
+    list-style            : none;
+    margin                : 4px;
+    padding               : 0px;
+    text-align            : left;
+}
+
+div.orgChart ul.stack,
+div.orgChart ul.stack ul {
+    text-align            : center;
+}
+
+div.orgChart table {
+    width                 : 100%;
+}
+
+div.orgChart tr.lines td.line {
+    width                 : 1px;
+    height                : 20px;
+}
+
+div.orgChart tr.lines td.top {
+
+}
+
+div.orgChart tr.lines td.left {
+    
+}
+
+div.orgChart tr.lines td.right {
+    
+}
+
+div.orgChart td {
+    text-align            : center;
+    vertical-align        : top;
+    padding               : 0px 2px;
+}
+
+div.orgChart div.node {
+    cursor                : default;
+    display               : inline-block;
+    padding               : 0 4px;
+    width                 : 96px;
+    height                : 60px;
+    font: normal 16px 'Calibri'; 
+    color: #fff;
+}
+
+div.orgChart div.hasChildren {
+    font: normal 16px 'Calibri'; 
+    color: #fff;
+}
+
+div.orgChart.interactive div.hasChildren {
+    cursor                : pointer;
+}
+
+div.orgChart div.node.hover {
+    background-color      : white;
+}
+
+div.orgChart div.adjunct.node {
+    position              : absolute;
+    margin-top            : 8px;
+    margin-left           : -110px;
+    width                 : 80px;
+    height                : 40px;
+    background-color      : #efefef;
+}
+
+div.orgChart div.adjunct-link {
+    display               : inline-block;
+    position              : absolute;
+    margin-left           : -20px;
+    margin-top            : 25px;
+    width                 : 20px;
+    border                : 1px dashed black;
+}
